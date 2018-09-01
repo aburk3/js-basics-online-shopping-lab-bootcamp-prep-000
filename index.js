@@ -47,7 +47,7 @@ function total() {
 }
 
 // function removeFromCart(item) {
-//   let index = cart.indexOf(item)
+//   let index = getCart().indexOf(item)
 //   if (index && (cart[index].itemName === item)) {
 //     cart.splice(index, 1)
 //   } else {
@@ -67,11 +67,10 @@ function removeFromCart(item) {
   
   if (index) {
     cart.splice(index, 1)
-    return cart
   } else {
     return 'That item is not in your cart.'
   }
-  //return 'That item is not in your cart.'
+  return 'That item is not in your cart.'
   
   
 }
