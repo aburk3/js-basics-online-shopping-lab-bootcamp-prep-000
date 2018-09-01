@@ -41,7 +41,7 @@ function viewCart() {
 function total() {
   let totalPrice = 0
   console.log(cart)
-  for (let i = 0; i < (cart.length); i++){
+  for (let i = 0; i < cart.length; i++){
     totalPrice = totalPrice + cart[i].itemPrice
   }
   return cart
