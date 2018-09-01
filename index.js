@@ -47,7 +47,7 @@ function total() {
 }
 
 // function removeFromCart(item) {
-//   let index = getCart().indexOf(item)
+//   let index = cart.indexOf(item)
 //   if (index && (cart[index].itemName === item)) {
 //     cart.splice(index, 1)
 //   } else {
