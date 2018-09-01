@@ -65,7 +65,7 @@ function removeFromCart(item) {
   
   let index = cart.indexOf(searchResult)
   
-  if (index) {
+  if (index > 0) {
     cart.splice(index, 1)
     return cart
   } else {
